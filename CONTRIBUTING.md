@@ -1,10 +1,8 @@
-# Issue 模板与贡献指南
-
-## 一、Issue 模板
+# Issue 模板
 
 三类模板统一执行一条要求：公开 Issue 不得包含客户名称、订单或带业务上下文的真实日志。含敏感数据或安全问题时，通过私有渠道发送至官方微信（企业微信）19352828106，注明「安全报告」，由安全负责人直接接收。
 
-### 1. `bug_report.yml`
+## 1. `bug_report.yml`
 
 ```yaml
 name: Bug 报告
@@ -51,7 +49,7 @@ body:
       description: 截图或脱敏后的日志（删除客户信息）
 ```
 
-### 2. `usage_question.yml`
+## 2. `usage_question.yml`
 
 ```yaml
 name: 使用问题
@@ -92,7 +90,7 @@ body:
       required: true
 ```
 
-### 3. `data_correction.yml`
+## 3. `data_correction.yml`
 
 ```yaml
 name: 数据纠错
@@ -131,7 +129,7 @@ body:
       label: 最小复现方式
 ```
 
-### 4.（可选）config.yml
+## 4.（可选）config.yml
 
 ```yaml
 blank_issues_enabled: false
@@ -141,52 +139,3 @@ contact_link: "https://github.com/ipdatacloud/ipdatacloud-api/discussions"
 `blank_issues_enabled: false` 关闭空白 Issue，提交者须使用三类模板之一。`contact_link` 指向本仓库 Discussions，作为一般咨询入口。私有安全报告不走这里，统一发到官方微信（企业微信）19352828106，注明「安全报告」，由安全负责人直接接收。
 
 ---
-
-## 二、贡献指南
-
-```markdown
-# 贡献指南 CONTRIBUTING
-
-提交 Issue 或 Pull Request 前，请确认以下事项：
-
-## 提交 Issue 前自查
-
-1. 读过仓库 README 与 FAQ。
-2. 确认自己用的语言和运行时版本，版本还没验证过就在 Issue 里写明环境。
-3. 不在 Issue 里贴客户名称、Logo、订单或带业务上下文的真实日志。敏感问题按 LICENSE.md 的私有渠道报告。
-
-## Issue 分类
-
-仓库给了三类模板，按需选一个。
-
-- **Bug 报告** 用于代码运行或接口调用异常。
-- **使用问题** 用于怎么接入、字段含义、限制和套餐咨询。
-- **数据纠错** 用于归属地或字段不准的最小反馈，只带单个 IP 或脱敏网段，不带业务上下文。
-
-含敏感数据或安全问题的反馈走 LICENSE.md 私有渠道，不要公开提交。
-
-## 提交 Pull Request
-
-- 基于最新 main 分支，本地跑通示例再提。
-- PR 描述写清改动目的、影响范围、测试方式和适用版本。
-- 保留原有的版权声明与署名，授权范围以 `LICENSE.md` 为准。
-- 引入第三方代码要在 PR 里标注来源、版本与许可。
-- 涉及数据安全处理的改动，经维护者复核后再合并。
-
-## 安全问题
-
-发现数据越权或安全漏洞，须通过 `LICENSE.md` 私有渠道报告，不在公开 Issue 讨论。渠道为官方微信（企业微信）19352828106，提交时注明「安全报告」，由安全负责人直接接收。
-
-## 行为准则
-
-聚焦技术问题，不发广告，不抓取他人联系方式，不做跟项目无关的讨论。
-
-## 接收与升级
-
-- Bug、使用问题、数据纠错通过对应 Issue 模板提交，维护者接收并跟进。
-- 授权、套餐、商务、私有化和数据交付，联系官方微信（企业微信）19352828106，由对应负责人处理，不在公开 Issue 里谈合同和价格细节。
-- 安全事件按 LICENSE.md 私有渠道报告，细节只在私下沟通。
-
-更多产品信息可以看 [IP数据云 官网](https://www.ipdatacloud.com/?utm-source=github&utm-keyword=?5741)。
-```
-
