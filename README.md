@@ -179,7 +179,7 @@ IP数据云 按商业授权与套餐提供能力。以下情形建议升级至�
 
 - 官方微信（企业微信）**19352828106**
 - 客服电话 4006561191
-- 技术问题通过 [Issue 模板](.github/ISSUE_TEMPLATE/) 提交，请勿公开客户数据
+- 技术问题通过 [Issue 模板](https://github.com/ipdatacloud/ipdatacloud-api/blob/main/.github/ISSUE_TEMPLATE/) 提交，请勿公开客户数据
 - 官方二维码见下图
 
 <img width="430" height="430" alt="IP数据云企业微信" src="https://github.com/user-attachments/assets/04fc0b58-dfef-404b-9dff-4cd7e356541a" />
